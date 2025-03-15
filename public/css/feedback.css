@@ -1,0 +1,57 @@
+/* Style the form container */
+form {
+    margin: 10px auto;
+    padding: 10px ;
+    /*background-color: #f9f9f9; NOT NEEDED */
+    /*border-radius: 10px; IT DOES NOT SHOW*/
+    /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); NOT NEEDED*/
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Label styling */
+/*form label {*/
+/*    font-weight: bold;*/
+/*    color: #888;*/
+/*}*/
+
+/* Input and textarea styling */
+/*form input[type="text"],*/
+/*form textarea {*/
+/*    width: 100%;*/
+/*    padding: 10px;*/
+/*    border: 1px solid #ccc;*/
+/*    border-radius: 5px;*/
+/*    font-size: 16px;*/
+/*    font-family: Arial, sans-serif;*/
+/*}*/
+
+/* Textarea size */
+/*form textarea {*/
+/*    resize: vertical;*/
+/*    min-height: 100px;*/
+/*}*/
+
+/* Submit button styling */
+/*form button {*/
+/*    background-color: #007bff;*/
+/*    color: white;*/
+/*    padding: 10px 15px;*/
+/*    border: none;*/
+/*    border-radius: 5px;*/
+/*    font-size: 16px;*/
+/*    cursor: pointer;*/
+/*    transition: background 0.3s ease-in-out;*/
+/*}*/
+
+/*form button:hover {*/
+/*    background-color: #0056b3;*/
+/*}*/
+
+/* Responsive adjustments */
+/*@media (max-width: 500px) {*/
+/*    form {*/
+/*        width: 90%;*/
+/*    }*/
+/*}*/

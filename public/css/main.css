@@ -1,0 +1,79 @@
+/*
+ ***** Most similar (free of charge) font found
+ ***** Web resource: https://www.myfonts.com/pages/whatthefont
+*/
+@font-face {
+    font-family: Free-Borba;
+    src: url(fonts/Akrobat-Light.otf);
+}
+
+/*
+ ***** Apply background color found using Paint's Colour Picker tool
+ ***** Apply personalized font
+ */
+body {
+    background-color: #D5E7F3;
+    font-family: Free-Borba;
+}
+
+header {
+    margin: 0px;
+    background-color: #147FA1;
+    border-radius: 25px;
+    text-transform: uppercase;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header>div>h2{
+    margin-left: 20px;
+}
+
+.flex-list{
+    display: flex;
+    padding: 10px 0px;
+}
+
+.flex-list-item{
+    padding: 10px;
+    display: flex;
+}
+
+a.navlink:link {
+    text-decoration: none;
+    color: white;
+}
+
+a.navlink:visited {
+    text-decoration: none;
+    color: white;
+}
+
+a.navlink:hover {
+    text-decoration: underline;
+}
+
+a.navlink:active {
+    text-decoration: underline;
+}
+
+
+main{
+    margin: 10px;
+    background-color: white;
+    border-radius: 25px;
+    padding: 10px;
+    display: flex;
+}
+
+footer{
+    color: white;
+    margin: 10px;
+    background-color: #147FA1;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
